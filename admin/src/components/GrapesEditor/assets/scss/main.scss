@@ -1,14 +1,28 @@
 @import './variables';
 @import './grapes_main.scss';
 .gjs-block-label {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 // Layers list items height
 .gjs-no-app {
-    height: 15px;
+  height: 15px;
 }
 
 .gjs-devices-c {
-    font-size: xx-small;
+  font-size: xx-small;
+}
+
+.gjs-block[title='Link'] {
+  font-size: 2em;
+  line-height: 2em;
+  padding: 11px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gjs-block[title='Link']:before {
+  content: '\f0c1';
 }
