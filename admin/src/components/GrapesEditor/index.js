@@ -12,7 +12,7 @@ import gjsTyped from 'grapesjs-typed'; // eslint-disable-line no-unused-vars
 import gjsTuiImageEditor from 'grapesjs-tui-image-editor'; // eslint-disable-line
 import gjsCssProcessor from 'grapesjs-parser-postcss'; // eslint-disable-line no-unused-vars
 import gjsStyleBg from 'grapesjs-style-bg'; // eslint-disable-line no-unused-vars
-import gjsWebPage from 'gjs-preset-webpage'; // eslint-disable-line no-unused-vars
+import gjsWebPage from 'grapesjs-preset-webpage'; // eslint-disable-line no-unused-vars
 import { useStrapi, prefixFileUrlWithBackendUrl } from 'strapi-helper-plugin'; // eslint-disable-line import/no-unresolved
 import './assets/scss/main.scss';
 import addStrapiPlugin from './grapes-plugins/strapi';
