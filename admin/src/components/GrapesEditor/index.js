@@ -111,7 +111,6 @@ const Editor = ({ onChange, name, value }) => {
         style: (value && value.styles) || {},
         storageManager: storageManagerConfig,
         plugins: [
-          'gjs-blocks-basic',
           'gjs-navbar',
           'grapesjs-tabs',
           'grapesjs-touch',
@@ -126,11 +125,6 @@ const Editor = ({ onChange, name, value }) => {
           strapiPluginRef,
         ],
         pluginsOpts: {
-          'gjs-blocks-basic': {
-            blocks: ['column1', 'column2', 'column3', 'column3-7', 'text', 'link', 'image', 'video', 'map'],
-            category: 'Basic Blocks',
-            flexGrid: true,
-          },
           [strapiPluginRef]: {
             assetsManager: sharedAssetsManager,
           },
