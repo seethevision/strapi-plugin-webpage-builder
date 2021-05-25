@@ -964,8 +964,10 @@ grapesjs-aviary@^0.1.2:
   resolved "https://registry.yarnpkg.com/grapesjs-aviary/-/grapesjs-aviary-0.1.2.tgz#330e7de5ad8ba5fca4dea06adba94372a8d4b487"
   integrity sha512-F7sYQWj5s9eyUqoOX6q1z2J06AqgXhQqdjQhM8b5BptxlbDsvDTCbqSRmLGkEQKaIF1ca5o9FFi9eKBeUAfLEw==
 
-grapesjs-blocks-basic@^0.1.7, "grapesjs-blocks-basic@file:node_modules/grapesjs-blocks-basic":
+grapesjs-blocks-basic@^0.1.7, grapesjs-blocks-basic@^0.1.8:
   version "0.1.8"
+  resolved "https://registry.yarnpkg.com/grapesjs-blocks-basic/-/grapesjs-blocks-basic-0.1.8.tgz#9eab7c8fd7bc30537143677320b07d85b9bd2e8f"
+  integrity sha512-Iy5M4qGkEE2llb5ZFxitDolRJ3CrQkcK1SQIjRRlkWIAC99On3T/09iFR7NkpTBfsgfdNwcwnSVOMOhSnVLDtw==
 
 grapesjs-component-countdown@^0.1.2:
   version "0.1.3"
