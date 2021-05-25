@@ -82,13 +82,6 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.9.2":
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
-  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
 "@babel/template@^7.12.13":
   version "7.12.13"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.12.13.tgz#530265be8a2589dbb37523844c5bcb55947fb327"
@@ -403,7 +396,7 @@ codemirror-formatting@^1.0.0:
   resolved "https://registry.yarnpkg.com/codemirror-formatting/-/codemirror-formatting-1.0.0.tgz#879cc1fdd9018343c1d5511769ce5360d705ebf2"
   integrity sha1-h5zB/dkBg0PB1VEXac5TYNcF6/I=
 
-codemirror@^5.49.2:
+codemirror@^5.58.2:
   version "5.61.1"
   resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.61.1.tgz#ccfc8a43b8fcfb8b12e8e75b5ffde48d541406e0"
   integrity sha512-+D1NZjAucuzE93vJGbAaXzvoBHwp9nJZWWWF9utjv25+5AZUiah6CIlfb4ikG4MoDsFsCG8niiJH5++OO2LgIQ==
@@ -1071,16 +1064,15 @@ grapesjs-typed@^1.0.5:
   resolved "https://registry.yarnpkg.com/grapesjs-typed/-/grapesjs-typed-1.0.5.tgz#badc6a625155e6369b0a2c997536c0e72ac95132"
   integrity sha512-mZrBAFtOqnK2Nq9Odj6AnDTgyN8tFpbS6G4V/JSRB6TXQx+p+ATF/u0QiA6Ej8riTWDldfZYwOLs8kjfU5cFUA==
 
-grapesjs@0.16.17:
-  version "0.16.17"
-  resolved "https://registry.yarnpkg.com/grapesjs/-/grapesjs-0.16.17.tgz#72d61c0a881826113142181e7dd365e4f321ca44"
-  integrity sha512-le+i8zoZWw+ah/2hB6JASZwZSN1tJJr5SEXGbGSQOZIBxEoy4gLF3GfWm9Zy5nXlFMMLPuVuyMtxkiW7qc2VLQ==
+grapesjs@0.17.3:
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/grapesjs/-/grapesjs-0.17.3.tgz#698b60938f30b70bf00b04fc882125860ab3cea3"
+  integrity sha512-NztXn3/XckO5UFIC09a40Xongbbp9R3MqIiZdrFjyN8htvECFxRo2NjNHKU1HClbwtYAEl/NeRRQ+kbDyQfX5g==
   dependencies:
-    "@babel/runtime" "^7.9.2"
     backbone "1.3.3"
     backbone-undo "^0.2.5"
     cash-dom "^2.3.9"
-    codemirror "^5.49.2"
+    codemirror "^5.58.2"
     codemirror-formatting "^1.0.0"
     keymaster "^1.6.2"
     promise-polyfill "^8.1.3"
