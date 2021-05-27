@@ -14,15 +14,233 @@
 }
 
 .gjs-block[title='Link'] {
-  font-size: 2em;
   line-height: 2em;
   padding: 11px;
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
+  font-size: 2em;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
 }
 
+.gjs-block[title='Link'] svg {
+  display: none;
+}
+
 .gjs-block[title='Link']:before {
   content: '\f0c1';
+  margin-top: 10px;
+}
+
+.gjs-block[title='Link']:after {
+  content: 'Link';
+  line-height: normal;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gjs-block[title='Video'] {
+  line-height: 2em;
+  padding: 11px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gjs-block[title='Video'] svg {
+  display: none;
+}
+
+.gjs-block[title='Video']:before {
+  content: '\f16a';
+  margin-top: 10px;
+}
+
+.gjs-block[title='Video']:after {
+  content: 'Video';
+  line-height: normal;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gjs-block[title='Map'] {
+  line-height: 2em;
+  padding: 11px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gjs-block[title='Map'] svg {
+  display: none;
+}
+
+.gjs-block[title='Map']:before {
+  content: '\f279';
+  margin-top: 10px;
+}
+
+.gjs-block[title='Map']:after {
+  content: 'Map';
+  line-height: normal;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gjs-block[title='Link Block'] {
+  line-height: 2em;
+  padding: 11px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gjs-block[title='Link Block'] svg {
+  display: none;
+}
+
+.gjs-block[title='Link Block']:before {
+  content: '\f0c1';
+  margin-top: 10px;
+}
+
+.gjs-block[title='Link Block']:after {
+  content: 'Link Block';
+  line-height: normal;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gjs-block[title='Quote'] {
+  line-height: 2em;
+  padding: 11px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gjs-block[title='Quote'] svg {
+  display: none;
+}
+
+.gjs-block[title='Quote']:before {
+  content: '\f10e';
+  margin-top: 10px;
+}
+
+.gjs-block[title='Quote']:after {
+  content: 'Quote';
+  line-height: normal;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gjs-block[title='Countdown'] {
+  line-height: 2em;
+  padding: 11px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gjs-block[title='Countdown'] svg {
+  display: none;
+}
+
+.gjs-block[title='Countdown']:before {
+  content: '\f017';
+  margin-top: 10px;
+}
+
+.gjs-block[title='Countdown']:after {
+  content: 'Countdown';
+  line-height: normal;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gjs-block[title='Checkbox'] {
+  line-height: 2em;
+  padding: 11px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gjs-block[title='Checkbox'] svg {
+  display: none;
+}
+
+.gjs-block[title='Checkbox']:before {
+  content: '\f14a';
+  margin-top: 10px;
+}
+
+.gjs-block[title='Checkbox']:after {
+  content: 'Checkbox';
+  line-height: normal;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gjs-block[title='Radio'] {
+  line-height: 2em;
+  padding: 11px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gjs-block[title='Radio'] svg {
+  display: none;
+}
+
+.gjs-block[title='Radio']:before {
+  content: '\f192';
+  margin-top: 10px;
+}
+
+.gjs-block[title='Radio']:after {
+  content: 'Radio';
+  line-height: normal;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gjs-block[title='Custom Code'] svg {
+  width: 60px;
+}
+
+.gjs-block[title='Typed'] svg {
+  width: 60px;
 }

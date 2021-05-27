@@ -31,6 +31,15 @@ import './assets/js/fa-shim';
 // instead of just replacing
 window.FontAwesome.config.autoReplaceSvg = 'nest';
 
+GrapesJS.plugins.add('grapesjs-custom-code', gjsCustomCode);
+GrapesJS.plugins.add('grapesjs-touch', gjsTouch);
+GrapesJS.plugins.add('grapesjs-typed', gjsTyped);
+GrapesJS.plugins.add('grapesjs-tui-image-editor', gjsTuiImageEditor);
+GrapesJS.plugins.add('grapesjs-plugin-forms', gjsForms);
+GrapesJS.plugins.add('grapesjs-style-bg', gjsStyleBg);
+// GrapesJS.plugins.add('grapesjs-preset-webpage', gjsWebPage);
+// GrapesJS.plugins.add('grapesjs-parser-postcss', gjsCssProcessor);
+
 const Editor = ({ onChange, name, value }) => {
   const [mediaLibConfiguration, setMediaLibConfiguration] = useState({ open: false });
   const toggleMediaLib = () =>
